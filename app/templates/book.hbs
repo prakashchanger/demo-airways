@@ -1,0 +1,121 @@
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<div class="book">
+<section class="booking-agile">
+<div class="headbooking-agile">
+			<div class="bookingleft-agile">
+				<h2>Book your air ticket</h2>
+					<form action="#" method="get">
+						<div class="arrival-agile">
+							<p>Depart On</p>
+							<input placeholder="Check in" class="date" id="datepicker" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required=""/>
+						</div>
+						<div class="departure-agile">
+							<p>Return On</p>
+							<input placeholder="Check out" class="date" id="datepicker1" type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="" />
+						</div>
+						<div class="clear"></div>
+							<div class="guest-agile">
+								<p>Adults</p>
+									<select>
+										<option value="">2</option>
+										<option value="number">2+1</option>
+										<option value="number">3+1</option>
+										<option value="number">3</option>
+									</select>
+							</div>
+							<div class="room-agile">
+								<p>Class</p>
+									<select>
+									  <option value="">Economy</option>
+									  <option value="single">Bussiness</option>
+									  <option value="double">Double Bussiness</option>
+									  
+									</select>
+							</div>
+							<div class="clear"></div>
+							<div class="room-agile">
+									<p>no of children</p>
+								<select>
+								  <option value="">0</option>
+								  <option value="internet">1</option>
+								  <option value="air">2</option>
+								  <option value="extra">3</option>
+								</select>
+							</div>
+							<div class="room-agile">
+								<p>no of infants</p>
+							<select>
+							  <option value="">0</option>
+							  <option value="child">1</option>
+							  <option value="child">2</option>
+							  <option value="child">3</option>
+							</select>
+							</div>
+							<div class="clear"></div>
+							<div class="name-agile">
+								<p>First name</p>
+								<input type="text" name="uname" placeholder="first name">
+							</div>
+							<div class="last-agile">
+								<p>last name	</p>
+								<input type="text" name="lname" placeholder="last name" >
+							</div>
+							<div class="clear"></div>
+								<div class="submit-agile">
+									<input type="submit" value="check availability">
+								</div>
+								<div class="clear"></div>
+						</form>
+				</div>
+<div class="bookingright-agile">
+<h3>get in touch</h3>
+			<div class="mobile-agile">
+				<div class="icon-agile">
+					<span><i class="fa fa-phone" aria-hidden="true"></i></span>
+				</div>
+				<div class="contact-agile">
+					<p>phone</p>
+					<span>+1800-987456321</span>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="email-agile">
+				<div class="mail-agile">
+					<span><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+				</div>
+				<div class="address-agile">
+					<p>email</p>
+					<span><a href="mailto:support@example.com">support@example.com</a></span>
+				</div>
+				<div class="clear"></div>
+				<div class="offers-agile">
+					<h4>Airport Hotels</h4>
+				<ul class="offers">
+					<li><a href="#">hotel: las vegas,classic room,1 single bed</a></li>
+					<li><a href="#">checkin: sunday 12 june 2016 from 15:00</a></li>
+					<li><a href="#">checkout: monday 13 june 2016 from 12:00</a></li>
+				</ul>
+					<span> 1500 / 2days</span>
+				</div>
+			</div>
+</div>
+<div class="clear"></div>
+</div>
+
+</section>
+</div>
+<!--start-date-piker-->
+		<link rel="stylesheet" href="css/jquery-ui.css" />
+		<script src="js/jquery-ui.js"></script>
+			<script>
+				$(function() {
+				$( "#datepicker,#datepicker1" ).datepicker();
+				});
+			</script>
+<!-- /End-date-piker -->
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
